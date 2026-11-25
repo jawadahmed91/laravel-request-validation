@@ -1,0 +1,21 @@
+{
+    "name": "jawadahmed91/laravel-request-validation",
+    "description": "Validate nested order inputs with Laravel",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "php": "^8.3",
+        "laravel/framework": "^13.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^12.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "LaravelExamples\\RequestValidation\\": "src/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit --bootstrap vendor/autoload.php tests"
+    }
+}
